@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale } from "next-intl/server";
@@ -8,11 +9,25 @@ export const metadata: Metadata = {
   description: "Pan, bolleria y pasteleria artesanal.",
 };
 
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-inter",
+});
+
+const playfairDisplay = Playfair_Display({
+  subsets: ["latin"],
+  variable: "--font-playfair-display",
+});
+
 export default async function RootLayout({ children }: LayoutProps<"/">) {
   const locale = await getLocale();
 
   return (
-    <html lang={locale}>
+    <html
+      className={`${inter.variable} ${playfairDisplay.variable}`}
+      data-scroll-behavior="smooth"
+      lang={locale}
+    >
       <body>
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>

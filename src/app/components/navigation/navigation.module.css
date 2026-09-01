@@ -1,22 +1,25 @@
 .shell {
   min-height: 100vh;
-  overflow: hidden;
 }
 .header {
-  background: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--cream);
+  box-shadow: 0 1px 0 color-mix(in srgb, var(--ink) 10%, transparent);
 }
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 2rem;
-  width: min(1180px, calc(100% - 3rem));
+  width: min(var(--content-max-width), calc(100% - (var(--page-gutter) * 2)));
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 0.55rem 0;
 }
 .brand img {
   display: block;
-  width: 120px;
+  width: 98px;
   height: auto;
 }
 .links {
@@ -60,20 +63,11 @@
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
 }
-.footer {
-  padding: 2rem 1.5rem;
-  background: var(--ink);
-  color: #f5f0e6;
-  text-align: center;
-  font-size: 0.75rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
 @media (max-width: 720px) {
   .nav {
     flex-direction: column;
     gap: 0.5rem;
-    width: min(100% - 2rem, 500px);
+    width: min(calc(100% - 2rem), 500px);
   }
   .links {
     gap: 1rem;

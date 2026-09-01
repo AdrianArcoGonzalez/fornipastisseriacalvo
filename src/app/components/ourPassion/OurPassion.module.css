@@ -1,0 +1,99 @@
+.passion {
+  padding: var(--page-gutter);
+  background: var(--paper);
+}
+
+.inner {
+  width: min(100%, var(--content-max-width));
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--cream) 92%, var(--paper));
+  box-shadow: 0 0 0 10px color-mix(in srgb, var(--cream) 70%, transparent);
+}
+
+.passionCopy {
+  padding: clamp(3rem, 7vw, 5rem) clamp(1.5rem, 5vw, 3rem) 2.8rem;
+}
+
+.passionCopy h2 {
+  margin: 1.45rem 0 1.6rem;
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.eyebrow {
+  color: var(--rust);
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.passionCopy > p:not(.eyebrow) {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.textLink {
+  display: inline-block;
+  margin-top: 2rem;
+  color: var(--rust);
+  font-size: 0.88rem;
+  font-weight: 800;
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--rust) 45%, transparent);
+  text-underline-offset: 0.22rem;
+}
+
+.textLink span {
+  margin-left: 0.45rem;
+  font-size: 1.1rem;
+}
+
+.passionImage {
+  position: relative;
+  min-height: 308px;
+  margin: 0 clamp(1.5rem, 5vw, 3rem) 4.8rem;
+  overflow: hidden;
+  border-radius: 8px;
+  background: url("https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1200&q=85")
+    center/cover;
+}
+
+.freshNote {
+  position: absolute;
+  right: 1rem;
+  bottom: 0.9rem;
+  padding: 0.72rem 1rem;
+  border-radius: 6px;
+  background: var(--cream);
+  box-shadow: 0 4px 12px color-mix(in srgb, var(--ink) 16%, transparent);
+  color: var(--rust);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 720px) {
+  .passion {
+    padding: 1rem;
+  }
+
+  .inner {
+    border-radius: 14px;
+  }
+
+  .passionCopy {
+    padding: 3rem 1.25rem 2.5rem;
+  }
+
+  .passionImage {
+    min-height: 260px;
+    margin: 0 1.25rem 3.5rem;
+  }
+}

@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
 :root {
+  --font-sans: var(--font-inter), "Segoe UI", sans-serif;
+  --font-serif: var(--font-playfair-display), Georgia, serif;
+  --page-gutter: 2rem;
+  --content-max-width: 80rem;
   --ink: #1d1b16;
   --paper: #fbf9f1;
   --cream: #ffffff;
@@ -22,7 +26,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-family: var(--font-sans);
 }
 
 a {

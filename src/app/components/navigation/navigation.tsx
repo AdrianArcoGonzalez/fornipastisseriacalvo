@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { useTranslations } from "next-intl";
+import Footer from "../footer/Footer";
 import LanguageSwitcher from "../languageSwitcher/language-switcher";
 import styles from "./navigation.module.css";
 
@@ -48,7 +49,7 @@ export default function Navigation({ children, active }: NavigationProps) {
         </nav>
       </header>
       <main>{children}</main>
-      <footer className={styles.footer}>Forn i Pastisseria Calvo</footer>
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,56 @@
+.footer {
+  padding: 2.75rem var(--page-gutter);
+  background: color-mix(in srgb, var(--paper) 80%, var(--ink));
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1.45fr 1.35fr 1fr;
+  gap: 2rem;
+  width: min(var(--content-max-width), 100%);
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  width: 105px;
+  height: auto;
+}
+
+.brand p,
+.column p,
+.column a {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.78rem;
+  line-height: 1.6;
+}
+
+.brand p {
+  max-width: 18rem;
+  margin-top: 0.75rem;
+}
+
+.column {
+  display: grid;
+  align-content: start;
+  gap: 0.6rem;
+}
+
+.column h2 {
+  margin: 0 0 0.25rem;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.column a:hover {
+  color: var(--rust);
+}
+
+@media (max-width: 720px) {
+  .inner {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}

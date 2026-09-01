@@ -10,5 +10,57 @@
     "es": "ES",
     "en": "EN",
     "ca": "CA"
+  },
+  "hero": {
+    "kicker": "The familiar taste at the heart of your neighborhood.",
+    "title": "Daily craftsmanship, pure ingredients and the time needed to make perfect bread.",
+    "products": "View products",
+    "about": "Meet us"
+  },
+  "ourPassion": {
+    "eyebrow": "Our passion",
+    "title": "Sourdough, patience and dedication.",
+    "description": "At Calvo, there are no shortcuts. We believe good bread needs time, respect for ingredients and expert hands that understand dough. Every morning, our bakery comes alive with the scent of toasted flour and butter, continuing a tradition that has nourished our neighborhood for generations.",
+    "link": "Discover our story",
+    "imageLabel": "Baker preparing dough in the workshop",
+    "freshNote": "Baked daily"
+  },
+  "footer": {
+    "copyright": "© 2024 Calvo Bakery & Pastry Shop. Artisans since day one.",
+    "information": "Information",
+    "hours": "Hours: Mon-Fri 7:00-20:00",
+    "address": "Calle del Pan, 12, Barrio Viejo",
+    "follow": "Follow us"
+  },
+  "visitUs": {
+    "title": "Visit us.",
+    "description": "The smell of freshly baked bread cannot be sent over the internet. We look forward to welcoming you to our shop with the best from our bakery.",
+    "address": "Calle del Pan, 12, Old Town",
+    "weekdayHours": "Monday to Friday: 7:00 - 20:00",
+    "saturdayHours": "Saturday: 8:00 - 15:00",
+    "imageLabel": "Facade of Forn i Pastisseria Calvo"
+  },
+  "bestProducts": {
+    "title": "Fresh from the oven",
+    "subtitle": "Our specialties, made every day with the finest ingredients.",
+    "description": "Made with traditional methods and slow fermentation for a unique flavor.",
+    "viewMenu": "View full menu",
+    "items": {
+      "rusticLoaf": {
+        "name": "Rustic loaf",
+        "price": "EUR 4.50",
+        "tag": "Sourdough"
+      },
+      "butterCroissant": {
+        "name": "Butter croissant",
+        "price": "EUR 2.20",
+        "tag": "Specialty"
+      },
+      "burntCheesecake": {
+        "name": "Burnt cheesecake",
+        "price": "EUR 24.00",
+        "tag": "Popular"
+      }
+    }
   }
 }

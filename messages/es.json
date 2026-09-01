@@ -10,5 +10,57 @@
     "es": "ES",
     "en": "EN",
     "ca": "CA"
+  },
+  "hero": {
+    "kicker": "El sabor de siempre, en el corazón de tu barrio.",
+    "title": "Artesanía diaria, ingredientes puros y el tiempo necesario para lograr el pan perfecto.",
+    "products": "Ver productos",
+    "about": "Conócenos"
+  },
+  "ourPassion": {
+    "eyebrow": "Nuestra pasión",
+    "title": "Masa madre, paciencia y dedicación.",
+    "description": "En Calvo, no hay atajos. Creemos que el buen pan requiere tiempo, respeto por los ingredientes y unas manos expertas que entiendan la masa. Cada mañana, nuestro obrador cobra vida con el aroma a harina tostada y mantequilla, continuando una tradición que ha alimentado a nuestro barrio durante generaciones.",
+    "link": "Descubre nuestra historia",
+    "imageLabel": "Panadero preparando masa en el obrador",
+    "freshNote": "Horneado diario"
+  },
+  "footer": {
+    "copyright": "© 2024 Panadería Pastelería Calvo. Artesanos desde siempre.",
+    "information": "Información",
+    "hours": "Horario: L-V 7:00-20:00",
+    "address": "Calle del Pan, 12, Barrio Viejo",
+    "follow": "Síguenos"
+  },
+  "visitUs": {
+    "title": "Ven a vernos.",
+    "description": "El olor a pan recién hecho no se puede enviar por internet. Te esperamos en nuestra tienda para ofrecerte lo mejor de nuestro obrador.",
+    "address": "Calle del Pan, 12, Barrio Viejo",
+    "weekdayHours": "Lunes a Viernes: 7:00 - 20:00",
+    "saturdayHours": "Sábados: 8:00 - 15:00",
+    "imageLabel": "Fachada de Forn i Pastisseria Calvo"
+  },
+  "bestProducts": {
+    "title": "Recién salido del horno",
+    "subtitle": "Nuestras especialidades, elaboradas cada día con los mejores ingredientes.",
+    "description": "Elaborado con procesos tradicionales y fermentación lenta para un sabor único.",
+    "viewMenu": "Ver menú completo",
+    "items": {
+      "rusticLoaf": {
+        "name": "Hogaza rústica",
+        "price": "4,50 EUR",
+        "tag": "Masa madre"
+      },
+      "butterCroissant": {
+        "name": "Croissant de mantequilla",
+        "price": "2,20 EUR",
+        "tag": "Especialidad"
+      },
+      "burntCheesecake": {
+        "name": "Tarta de queso tostada",
+        "price": "24,00 EUR",
+        "tag": "Popular"
+      }
+    }
   }
 }
