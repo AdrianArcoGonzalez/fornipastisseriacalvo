@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
-import { useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { useTranslations } from "next-intl";
 import Footer from "../footer/Footer";
 import LanguageSwitcher from "../languageSwitcher/language-switcher";
@@ -24,11 +24,30 @@ const links = [
 export default function Navigation({ children, active }: NavigationProps) {
   const t = useTranslations("navigation");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const navigationRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    if (!isMenuOpen) {
+      return;
+    }
+
+    function handlePointerDown(event: PointerEvent) {
+      if (!navigationRef.current?.contains(event.target as Node)) {
+        setIsMenuOpen(false);
+      }
+    }
+
+    document.addEventListener("pointerdown", handlePointerDown);
+    return () => document.removeEventListener("pointerdown", handlePointerDown);
+  }, [isMenuOpen]);
 
   return (
     <div className={styles.shell}>
       <header className={styles.header}>
-        <nav className={styles.nav}>
+        <nav className={styles.nav} ref={navigationRef}>
+          <div className={styles.mobileLanguage}>
+            <LanguageSwitcher />
+          </div>
           <Link className={styles.brand} href="/">
             <Image
               src="/logo.png"
@@ -68,7 +87,9 @@ export default function Navigation({ children, active }: NavigationProps) {
                 </Link>
               ))}
             </div>
-            <LanguageSwitcher />
+            <div className={styles.desktopLanguage}>
+              <LanguageSwitcher />
+            </div>
           </div>
         </nav>
       </header>

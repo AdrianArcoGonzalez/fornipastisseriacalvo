@@ -25,6 +25,9 @@
   align-items: center;
   gap: 2rem;
 }
+.mobileLanguage {
+  display: none;
+}
 .brand img {
   display: block;
   width: 98px;
@@ -85,6 +88,12 @@
   }
   .brand img {
     width: 82px;
+  }
+  .mobileLanguage {
+    display: block;
+  }
+  .desktopLanguage {
+    display: none;
   }
   .menuButton {
     display: grid;
