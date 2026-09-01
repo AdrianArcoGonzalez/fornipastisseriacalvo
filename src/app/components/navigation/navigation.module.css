@@ -17,6 +17,14 @@
   margin: 0 auto;
   padding: 0.55rem 0;
 }
+.menuButton {
+  display: none;
+}
+.menuPanel {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
 .brand img {
   display: block;
   width: 98px;
@@ -66,17 +74,43 @@
 }
 @media (max-width: 720px) {
   .nav {
+    flex-direction: row;
+    position: relative;
+    width: min(calc(100% - var(--page-gutter)), 500px);
+  }
+  .menuButton {
+    display: grid;
+    place-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-left: auto;
+    border: 0;
+    background: transparent;
+    color: var(--rust);
+    cursor: pointer;
+  }
+  .menuPanel {
+    position: absolute;
+    top: calc(100% + 0.55rem);
+    right: 0;
+    left: 0;
+    display: none;
     flex-direction: column;
-    gap: 0.5rem;
-    width: min(calc(100% - 2rem), 500px);
+    align-items: stretch;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid color-mix(in srgb, var(--rust) 45%, var(--cream));
+    border-radius: 5px;
+    background: var(--cream);
+    box-shadow: 0 12px 24px color-mix(in srgb, var(--ink) 12%, transparent);
+  }
+  .menuOpen {
+    display: flex;
   }
   .links {
+    flex-direction: column;
+    align-items: stretch;
     gap: 1rem;
     font-size: 1rem;
-  }
-  .language {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
   }
 }
