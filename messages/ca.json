@@ -20,7 +20,7 @@
   "ourPassion": {
     "eyebrow": "La nostra passió",
     "title": "Massa mare, paciència i dedicació.",
-    "description": "A Calvo, no hi ha dreceres. Creiem que el bon pa necessita temps, respecte pels ingredients i unes mans expertes que entenguin la massa. Cada matí, el nostre obrador cobra vida amb l'aroma de farina torrada i mantega, continuant una tradició que ha alimentat el nostre barri durant generacions.",
+    "description": "A Forn i Pastisseria Calvo, no hi ha dreceres. Creiem que el bon pa necessita temps, respecte pels ingredients i unes mans expertes que entenguin la massa. Cada matí, el nostre obrador cobra vida amb l'aroma de farina torrada i mantega, continuant una tradició que ha alimentat el nostre barri durant generacions.",
     "link": "Descobreix la nostra història",
     "imageLabel": "Flequer preparant massa a l'obrador",
     "freshNote": "Forn cada dia"
@@ -28,16 +28,20 @@
   "footer": {
     "copyright": "© 2024 Forn i Pastisseria Calvo. Artesans de sempre.",
     "information": "Informació",
-    "hours": "Horari: Dl-Dv 7:00-20:00",
-    "address": "Carrer del Pa, 12, Barri Vell",
+    "hours": "Dilluns a Divendres 6:00-14:30, 16:30-20:30",
+    "weekendHours": "Dissabte i Diumenge: 7:00-14:30",
+    "address": "Avinguda de Catalunya, 96, 08150 Parets del Vallès, Barcelona",
+    "phone": "935 621 217",
     "follow": "Segueix-nos"
   },
   "visitUs": {
     "title": "Vine a veure'ns.",
     "description": "L'olor de pa acabat de fer no es pot enviar per internet. T'esperem a la nostra botiga per oferir-te el millor del nostre obrador.",
-    "address": "Carrer del Pa, 12, Barri Vell",
-    "weekdayHours": "Dilluns a Divendres: 7:00 - 20:00",
-    "saturdayHours": "Dissabtes: 8:00 - 15:00",
+    "address": "Avinguda de Catalunya, 96, 08150 Parets del Vallès, Barcelona",
+    "phone": "935 621 217",
+    "mondayFridayHours": "De dilluns a divendres: 6:00-14:30, 16:30-20:30",
+    "saturdayHours": "Dissabte: 7:00-14:30",
+    "sundayHours": "Diumenge: 7:00-14:30",
     "imageLabel": "Façana de Forn i Pastisseria Calvo"
   },
   "bestProducts": {

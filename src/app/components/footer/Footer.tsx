@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { Camera, Instagram } from "lucide-react";
 import { useTranslations } from "next-intl";
 import styles from "./Footer.module.css";
 
@@ -24,12 +25,23 @@ export default function Footer() {
         <div className={styles.column}>
           <h2>{t("information")}</h2>
           <p>{t("hours")}</p>
+          <p>{t("weekendHours")}</p>
           <p>{t("address")}</p>
+          <a href="tel:+34935621217">{t("phone")}</a>
         </div>
         <div className={styles.column}>
           <h2>{t("follow")}</h2>
-          <a href="https://www.instagram.com/">Instagram</a>
-          <a href="https://www.facebook.com/">Facebook</a>
+          <Link
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+            className={styles.instagramLink}
+            href="https://www.instagram.com/fornipastisseriacalvo/"
+            title="Instagram"
+          >
+            <Camera aria-hidden="true" size={18} />
+            <span>Instagram</span>
+          </Link>
         </div>
       </div>
     </footer>

@@ -7,10 +7,10 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: min(100%, var(--content-max-width));
-  min-height: 300px;
+  min-height: 390px;
   margin: 0 auto;
   overflow: hidden;
-  border: 1px solid color-mix(in srgb, var(--rust) 22%, transparent);
+  border: 1px solid color-mix(in srgb, var(--rust) 45%, var(--cream));
   border-radius: 10px;
   background: var(--cream);
 }
@@ -51,54 +51,19 @@
   line-height: 1.45;
 }
 
-.pin,
-.clock {
-  position: relative;
-  display: block;
-  flex: 0 0 0.9rem;
-  width: 0.9rem;
-  height: 0.9rem;
+.detail a {
+  color: inherit;
+}
+
+.contactIcon {
+  flex: 0 0 1rem;
   margin-top: 0.1rem;
-  border: 2px solid var(--rust);
-}
-
-.pin {
-  border-radius: 50% 50% 50% 0;
-  transform: rotate(-45deg);
-}
-
-.pin::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0.22rem;
-  height: 0.22rem;
-  border-radius: 50%;
-  background: var(--rust);
-  content: "";
-  transform: translate(-50%, -50%);
-}
-
-.clock {
-  border-radius: 50%;
-}
-
-.clock::after {
-  position: absolute;
-  top: 0.12rem;
-  left: 0.37rem;
-  width: 2px;
-  height: 0.34rem;
-  background: var(--rust);
-  content: "";
-  transform-origin: bottom;
-  transform: rotate(-35deg);
+  color: var(--rust);
 }
 
 .image {
-  min-height: 300px;
-  background: url("https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1100&q=85")
-    center/cover;
+  min-height: 390px;
+  background: var(--paper) url("/logo.png") center / min(70%, 360px) no-repeat;
 }
 
 @media (max-width: 720px) {

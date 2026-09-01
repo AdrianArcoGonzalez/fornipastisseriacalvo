@@ -20,24 +20,28 @@
   "ourPassion": {
     "eyebrow": "Nuestra pasión",
     "title": "Masa madre, paciencia y dedicación.",
-    "description": "En Calvo, no hay atajos. Creemos que el buen pan requiere tiempo, respeto por los ingredientes y unas manos expertas que entiendan la masa. Cada mañana, nuestro obrador cobra vida con el aroma a harina tostada y mantequilla, continuando una tradición que ha alimentado a nuestro barrio durante generaciones.",
+    "description": "En Forn i Pastisseria Calvo, no hay atajos. Creemos que el buen pan requiere tiempo, respeto por los ingredientes y unas manos expertas que entiendan la masa. Cada mañana, nuestro obrador cobra vida con el aroma a harina tostada y mantequilla, continuando una tradición que ha alimentado a nuestro barrio durante generaciones.",
     "link": "Descubre nuestra historia",
     "imageLabel": "Panadero preparando masa en el obrador",
     "freshNote": "Horneado diario"
   },
   "footer": {
-    "copyright": "© 2024 Panadería Pastelería Calvo. Artesanos desde siempre.",
+    "copyright": "© 2024 Forn i Pastisseria Calvo. Artesanos desde siempre.",
     "information": "Información",
-    "hours": "Horario: L-V 7:00-20:00",
-    "address": "Calle del Pan, 12, Barrio Viejo",
+    "hours": "Horario: L-V 6:00-14:30, 16:30-20:30",
+    "saturdayHours": "Sábado: 7:00-14:30",
+    "sundayHours": "Domingo: 7:00-14:30",
+    "address": "Avenida de Catalunya, 96, 08150 Parets del Vallès, Barcelona",
+    "phone": "935 621 217",
     "follow": "Síguenos"
   },
   "visitUs": {
     "title": "Ven a vernos.",
     "description": "El olor a pan recién hecho no se puede enviar por internet. Te esperamos en nuestra tienda para ofrecerte lo mejor de nuestro obrador.",
-    "address": "Calle del Pan, 12, Barrio Viejo",
-    "weekdayHours": "Lunes a Viernes: 7:00 - 20:00",
-    "saturdayHours": "Sábados: 8:00 - 15:00",
+    "address": "Avenida de Catalunya, 96, 08150 Parets del Vallès, Barcelona",
+    "phone": "935 621 217",
+    "mondayFridayHours": "Lunes a viernes: 6:00-14:30, 16:30-20:30",
+    "weekendHours": "Sábado y Domingo: 7:00-14:30",
     "imageLabel": "Fachada de Forn i Pastisseria Calvo"
   },
   "bestProducts": {

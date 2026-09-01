@@ -1,3 +1,4 @@
+import { Clock, MapPin, Phone } from "lucide-react";
 import { useTranslations } from "next-intl";
 import styles from "./VisitUs.module.css";
 
@@ -12,15 +13,33 @@ export default function VisitUs() {
           <p>{t("description")}</p>
           <div className={styles.details}>
             <div className={styles.detail}>
-              <span aria-hidden="true" className={styles.pin} />
+              <MapPin
+                aria-hidden="true"
+                className={styles.contactIcon}
+                size={16}
+              />
               <span>{t("address")}</span>
             </div>
             <div className={styles.detail}>
-              <span aria-hidden="true" className={styles.clock} />
+              <Phone
+                aria-hidden="true"
+                className={styles.contactIcon}
+                size={16}
+              />
+              <a href="tel:+34935621217">{t("phone")}</a>
+            </div>
+            <div className={styles.detail}>
+              <Clock
+                aria-hidden="true"
+                className={styles.contactIcon}
+                size={16}
+              />
               <span>
-                {t("weekdayHours")}
+                {t("mondayFridayHours")}
                 <br />
                 {t("saturdayHours")}
+                <br />
+                {t("sundayHours")}
               </span>
             </div>
           </div>

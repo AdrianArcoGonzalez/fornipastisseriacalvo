@@ -1,5 +1,6 @@
 .footer {
   padding: 2.75rem var(--page-gutter);
+  border-top: 1px solid color-mix(in srgb, var(--rust) 45%, var(--cream));
   background: color-mix(in srgb, var(--paper) 80%, var(--ink));
 }
 
@@ -46,6 +47,14 @@
 
 .column a:hover {
   color: var(--rust);
+}
+
+.instagramLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  width: fit-content;
+  color: var(--muted);
 }
 
 @media (max-width: 720px) {
