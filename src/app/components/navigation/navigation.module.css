@@ -78,6 +78,14 @@
     position: relative;
     width: min(calc(100% - var(--page-gutter)), 500px);
   }
+  .brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .brand img {
+    width: 82px;
+  }
   .menuButton {
     display: grid;
     place-items: center;
