@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Camera, Instagram } from "lucide-react";
+import { Camera } from "lucide-react";
 import { useTranslations } from "next-intl";
 import styles from "./Footer.module.css";
 
