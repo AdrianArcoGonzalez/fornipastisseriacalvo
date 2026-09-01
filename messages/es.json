@@ -1,0 +1,14 @@
+{
+  "navigation": {
+    "home": "Inicio",
+    "products": "Productos",
+    "about": "Nuestra historia",
+    "contact": "Contacto"
+  },
+  "language": {
+    "label": "Idioma",
+    "es": "ES",
+    "en": "EN",
+    "ca": "CA"
+  }
+}

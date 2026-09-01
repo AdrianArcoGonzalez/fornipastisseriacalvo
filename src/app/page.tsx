@@ -1,69 +1,151 @@
-import Image from "next/image";
+import Navigation from "./components/navigation/navigation";
+import Link from "next/link";
+import styles from "./page.module.css";
+
+const products = [
+  {
+    name: "Hogaza rustica",
+    price: "4,50 EUR",
+    tag: "Masa madre",
+    image:
+      "https://images.unsplash.com/photo-1585478282223-f39a399478f7?auto=format&fit=crop&q=80&w=700",
+  },
+  {
+    name: "Croissant de mantequilla",
+    price: "2,20 EUR",
+    tag: "Especialidad",
+    image:
+      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=700",
+  },
+  {
+    name: "Tarta de queso tostada",
+    price: "24,00 EUR",
+    tag: "Popular",
+    image:
+      "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&q=80&w=700",
+  },
+];
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
+    <Navigation active="inicio">
+      <section className={styles.hero}>
+        <div className={styles.overlay} />
+        <div className={styles.heroContent}>
+          <p className={styles.kicker}>
+            El sabor de siempre, en el corazon de tu barrio
+          </p>
+          <h1>
+            Artesania diaria, ingredientes puros y el tiempo necesario para
+            lograr el pan perfecto.
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+          <div className={styles.actions}>
+            <Link
+              className={`${styles.button} ${styles.primary}`}
+              href="/productos"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+              Ver productos
+            </Link>
+            <Link
+              className={`${styles.button} ${styles.secondary}`}
+              href="/nuestra-historia"
             >
-              Learning
-            </a>{" "}
-            center.
+              Conocenos
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className={styles.passion}>
+        <div className={styles.passionCopy}>
+          <p className={styles.eyebrow}>Nuestra pasion</p>
+          <h2>Masa madre, paciencia y dedicacion.</h2>
+          <p>
+            En Forn i Pastisseria Calvo, no hay atajos. Creemos que el buen pan
+            requiere tiempo, respeto por los ingredientes y unas manos expertas
+            que entiendan la masa. Cada manana, nuestro obrador cobra vida con
+            el aroma a harina tostada y mantequilla.
+          </p>
+          <Link className={styles.textLink} href="/nuestra-historia">
+            Descubre nuestra historia <span aria-hidden="true">&rarr;</span>
+          </Link>
+        </div>
+        <div className={styles.passionImage}>
+          <div className={styles.freshNote}>Horneado diario</div>
+        </div>
+      </section>
+
+      <section className={styles.featured}>
+        <div className={styles.heading}>
+          <h2>Recien salido del horno</h2>
+          <p>
+            Nuestras especialidades, elaboradas cada dia con los mejores
+            ingredientes.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className={styles.grid}>
+          {products.map((product) => (
+            <article className={styles.card} key={product.name}>
+              <div
+                className={styles.image}
+                style={{ backgroundImage: `url(${product.image})` }}
+                role="img"
+                aria-label={product.name}
+              >
+                <span>{product.tag}</span>
+              </div>
+              <div className={styles.copy}>
+                <div>
+                  <h3>{product.name}</h3>
+                  <strong>{product.price}</strong>
+                </div>
+                <p>
+                  Elaborado con procesos tradicionales y fermentacion lenta para
+                  un sabor unico.
+                </p>
+              </div>
+            </article>
+          ))}
         </div>
-      </main>
-    </div>
+        <Link
+          className={`${styles.button} ${styles.secondary} ${styles.menuLink}`}
+          href="/productos"
+        >
+          Ver menu completo
+        </Link>
+      </section>
+
+      <section className={styles.visit}>
+        <div className={styles.visitCopy}>
+          <h2>Ven a vernos.</h2>
+          <p>
+            El olor a pan recien hecho no se puede enviar por internet. Te
+            esperamos en nuestra tienda para ofrecerte lo mejor de nuestro
+            obrador.
+          </p>
+          <div className={styles.details}>
+            <p>
+              <strong>Direccion</strong>
+              <br />
+              Av. de Catalunya, 96, 08150 Parets del Vallès, Barcelona
+            </p>
+            <p>
+              <strong>Horario</strong>
+              <br />
+              Lunes a viernes: 6:00 - 14:30, 16:30 - 20:30
+              <br />
+              Sabados: 7:00 - 14:30
+              <br />
+              Domingos: 7:00 - 14:30
+            </p>
+          </div>
+        </div>
+        <div
+          className={styles.visitImage}
+          role="img"
+          aria-label="Interior de la panaderia Forn i Pastisseria Calvo"
+        />
+      </section>
+    </Navigation>
   );
 }
