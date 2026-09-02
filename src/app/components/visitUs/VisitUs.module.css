@@ -22,7 +22,7 @@
 
 .copy h2 {
   margin: 0 0 1.35rem;
-  color: var(--ink);
+  color: var(--rust);
   font-family: var(--font-serif);
   font-size: 1.7rem;
   font-weight: 700;
@@ -64,6 +64,14 @@
 .image {
   min-height: 390px;
   background: var(--paper) url("/logo.png") center / min(70%, 360px) no-repeat;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  align-items: flex-start;
 }
 
 @media (max-width: 720px) {

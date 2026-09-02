@@ -1,4 +1,4 @@
-import { Camera, Clock3, Mail, MapIcon, MapPin, Phone } from "lucide-react";
+import { Camera, Clock3, MapIcon, MapPin, Phone } from "lucide-react";
 import Navigation from "../components/navigation/navigation";
 import styles from "./page.module.css";
 import { useTranslations } from "next-intl";

@@ -34,13 +34,10 @@ export default function VisitUs() {
                 className={styles.contactIcon}
                 size={16}
               />
-              <span>
-                {t("mondayFridayHours")}
-                <br />
-                {t("saturdayHours")}
-                <br />
-                {t("sundayHours")}
-              </span>
+              <div className={styles.hours}>
+                <span>{t("mondayFridayHours")}</span>
+                <span>{t("weekendHours")}</span>
+              </div>
             </div>
           </div>
         </div>
