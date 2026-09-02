@@ -1,0 +1,78 @@
+.cta {
+  width: min(100% - 3rem, 1100px);
+  margin: 0 auto;
+  padding: 2.25rem 1.5rem 2.35rem;
+  background: #f5f4ec;
+  border: 1px solid rgba(139, 69, 19, 0.12);
+  border-radius: 0.35rem;
+  text-align: center;
+}
+
+.cta h2 {
+  margin: 0;
+  color: var(--rust);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.45rem, 2.5vw, 1.9rem);
+  font-weight: 500;
+}
+
+.cta p {
+  max-width: 650px;
+  margin: 0.55rem auto 1.15rem;
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.5;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 0.55rem;
+}
+
+.button {
+  display: inline-flex;
+  min-height: 2.2rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  padding: 0.55rem 1.2rem;
+  border: 1px solid var(--rust);
+  border-radius: 0.25rem;
+  font-size: 0.68rem;
+  font-weight: 700;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.primary {
+  color: #fff;
+  background: var(--rust);
+}
+
+.primary:hover {
+  background: color-mix(in srgb, var(--rust) 85%, var(--ink));
+}
+
+.secondary {
+  color: var(--rust);
+  background: transparent;
+}
+
+.secondary:hover {
+  background: rgba(212, 163, 93, 0.14);
+}
+
+@media (max-width: 520px) {
+  .cta {
+    width: min(100% - 1.5rem, 34rem);
+    padding-inline: 1rem;
+  }
+
+  .actions {
+    flex-direction: column;
+    width: min(100%, 16rem);
+    margin: 0 auto;
+  }
+}

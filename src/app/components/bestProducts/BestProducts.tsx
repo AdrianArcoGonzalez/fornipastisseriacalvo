@@ -8,21 +8,18 @@ const playfairDisplay = Playfair_Display({ subsets: ["latin"] });
 const products = [
   {
     name: "Hogaza rustica",
-    price: "4,50 EUR",
     tag: "Masa madre",
     image:
       "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=700",
   },
   {
     name: "Croissant de mantequilla",
-    price: "2,20 EUR",
     tag: "Especialidad",
     image:
       "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=700",
   },
   {
     name: "Tarta de queso tostada",
-    price: "24,00 EUR",
     tag: "Popular",
     image:
       "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&q=80&w=700",
@@ -52,7 +49,6 @@ export default function BestProducts() {
             <div className={styles.copy}>
               <div>
                 <h3 className={playfairDisplay.className}>{product.name}</h3>
-                <strong>{product.price}</strong>
               </div>
               <p>{t("description")}</p>
             </div>
