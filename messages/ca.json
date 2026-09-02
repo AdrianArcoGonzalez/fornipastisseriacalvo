@@ -25,8 +25,38 @@
     "imageLabel": "Flequer preparant massa a l'obrador",
     "freshNote": "Forn cada dia"
   },
+  "history": {
+    "preTitle": "Les nostres arrels, el nostre pa",
+    "title": "Un forn, moltes memòries",
+    "description": "Des de 1963, la família Calvo s'ha llevat cada dia per encendre el forn. El que va començar com un petit despatx de pa al cor del barri, avui és un llegat de sabor, tradició i paciència. Amassem records amb les mateixes receptes de sempre."
+  },
+
+  "origin": {
+    "title": "L'origen",
+    "firstDescription": "Tot va començar amb el avi Felix, amb les mans plenes de farina i una idea clara: fer bon pa requereix temps, dedicació i respecte pel ofici. Va fundar aquest forn convençut que el bon pa no necessita presses. Ens va ensenyar que el veritable secret no està en un ingredient màgic, sinó en saber esperar, respectar els temps i cuidar cada pas del procés.",
+    "secondDescription": "Avui, més de 60 anys després, continuem treballant amb la mateixa massa mare que ell va cultivar amb les seves pròpies mans. Una massa viva que ha passat de generació en generació i que, amb cada fornada, manté viu el seu llegat. Després va arribar l'Emilio, la segona generació de la família, que des de ben jove es va sumar al forn per continuar la tradició, aprendre l'ofici i, amb el temps, aportar el seu propi segell.",
+    "thirdDescription": "Perquè algunes receptes no només es transmeten de generació en generació. També s'hereten la passió, el respecte i una manera d'entendre el pa.",
+    "photoCaption": "El mostrador original, testimoni de milers de matins"
+  },
+  "cardsSection": {
+    "title": "El que ens defineix",
+    "items": {
+      "natural": {
+        "title": "Ingredients Naturals",
+        "text": "Les millors farines, aigua i sal. Sense conservants ni millors artificials. Només la puresa de la terra."
+      },
+      "slow": {
+        "title": "Processos Lents",
+        "text": "Fermentacions llargues. Creiem que el temps és el millor amassador, desenvolupant aromes i textures impecables."
+      },
+      "family": {
+        "title": "Tracte Familiar",
+        "text": "Per a nosaltres no ets un client, ets un veí. Coneixem els teus gustos i ens encanta formar part de la teva rutina diària."
+      }
+    }
+  },
   "footer": {
-    "copyright": "© 2024 Forn i Pastisseria Calvo. Artesans de sempre.",
+    "copyright": "© 1963 Forn i Pastisseria Calvo. Artesans de sempre.",
     "information": "Informació",
     "hours": "Dilluns a Divendres 6:00-14:30, 16:30-20:30",
     "weekendHours": "Dissabte i Diumenge: 7:00-14:30",
@@ -44,6 +74,17 @@
     "sundayHours": "Diumenge: 7:00-14:30",
     "imageLabel": "Façana de Forn i Pastisseria Calvo"
   },
+
+  "contact": {
+    "heading": "Som aquí per a tu",
+    "description": "Tens alguna consulta, un encàrrec especial o simplement vols dir Hola? Acosta't al nostre obrador o envia'ns un missatge.",
+    "visitUs": "Visiteu-nos",
+    "hours": "Horari",
+    "mondayToFriday": "De dilluns a divendres",
+    "weekendHours": "Dissabte i Diumenge",
+    "instagram": "Segueix-nos a Instagram"
+  },
+
   "bestProducts": {
     "title": "Acabat de sortir del forn",
     "subtitle": "Les nostres especialitats, elaborades cada dia amb els millors ingredients.",

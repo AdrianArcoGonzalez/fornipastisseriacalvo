@@ -19,31 +19,32 @@
 .passionCopy h2 {
   margin: 1.45rem 0 1.6rem;
   font-family: var(--font-serif);
-  font-size: clamp(2rem, 4.5vw, 3rem);
+  font-size: 2.25rem;
   font-weight: 700;
   line-height: 1.2;
+  color: var(--ink);
 }
 
 .eyebrow {
   color: var(--rust);
-  font-size: 0.68rem;
-  font-weight: 800;
+  font-size: 0.75rem;
+  font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
 }
 
 .passionCopy > p:not(.eyebrow) {
   color: var(--muted);
-  font-size: 0.9rem;
-  line-height: 1.55;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 .textLink {
   display: inline-block;
   margin-top: 2rem;
   color: var(--rust);
-  font-size: 0.88rem;
-  font-weight: 800;
+  font-size: 0.875rem;
+  font-weight: 700;
   text-decoration: underline;
   text-decoration-color: color-mix(in srgb, var(--rust) 45%, transparent);
   text-underline-offset: 0.22rem;

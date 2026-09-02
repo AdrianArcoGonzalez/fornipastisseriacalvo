@@ -25,11 +25,42 @@
     "imageLabel": "Baker preparing dough in the workshop",
     "freshNote": "Baked daily"
   },
+  "history": {
+    "preTitle": "Our roots, our bread",
+    "title": "One oven, many memories",
+    "description": "Since 1963, the Calvo family has risen every day to light the oven. What started as a small bread shop in the heart of the neighborhood is now a legacy of flavor, tradition, and patience. We knead memories with the same recipes as always."
+  },
+
+  "origin": {
+    "title": "The Origin",
+    "firstDescription": "It all started with grandfather Felix, with hands full of flour and a clear idea: making good bread requires time, dedication, and respect for the craft. He founded this bakery convinced that good bread does not need to be rushed. He taught us that the real secret is not in a magical ingredient, but in knowing how to wait, respect the times, and take care of every step of the process.",
+    "secondDescription": "Today, more than 60 years later, we continue working with the same sourdough that he cultivated with his own hands. A living dough that has passed from generation to generation and that, with each baking, keeps his legacy alive. Then came Emilio, the second generation of the family, who joined the bakery from a young age to continue the tradition, learn the craft, and, in time, add his own touch.",
+    "thirdDescription": "Because some recipes are not only passed down from generation to generation. Passion, respect, and a way of understanding bread are also inherited.",
+    "photoCaption": "The original counter, witness to thousands of mornings"
+  },
+
+  "cardsSection": {
+    "title": "What defines us",
+    "items": {
+      "natural": {
+        "title": "Natural Ingredients",
+        "text": "Just the best flours, water and salt. No preservatives or artificial enhancers. Just the purity of the earth."
+      },
+      "slow": {
+        "title": "Slow Processes",
+        "text": "Long fermentations. We believe time is the best kneader, developing impeccable aromas and textures."
+      },
+      "family": {
+        "title": "Family Care",
+        "text": "For us, you are not a customer, you are a neighbor. We know your tastes and we love being part of your daily routine."
+      }
+    }
+  },
   "footer": {
-    "copyright": "© 2024 Calvo Bakery & Pastry Shop. Artisans since day one.",
+    "copyright": "© 1963 Calvo Bakery & Pastry Shop. Artisans since day one.",
     "information": "Information",
     "hours": "Monday to Friday 6:00-14:30, 16:30-20:30",
-    "wekendHours": "Saturday and Sunday 7:00-14:30",
+    "weekendHours": "Saturday and Sunday 7:00-14:30",
     "address": "Avinguda de Catalunya, 96, 08150 Parets del Vallès, Barcelona",
     "phone": "935 621 217",
     "follow": "Follow us"
@@ -44,6 +75,17 @@
     "sundayHours": "Sunday: 7:00-14:30",
     "imageLabel": "Facade of Forn i Pastisseria Calvo"
   },
+
+  "contact": {
+    "heading": "We are here for you",
+    "description": "Do you have any questions, a special order, or just want to say hello? Come to our bakery or send us a message.",
+    "visitUs": "Visit us",
+    "hours": "Hours",
+    "mondayToFriday": "Monday to Friday",
+    "weekendHours": "Saturday and Sunday",
+    "instagram": "Follow us on Instagram"
+  },
+
   "bestProducts": {
     "title": "Fresh from the oven",
     "subtitle": "Our specialties, made every day with the finest ingredients.",

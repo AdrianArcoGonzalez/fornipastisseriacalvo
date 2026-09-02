@@ -6,7 +6,7 @@ import { getLocale } from "next-intl/server";
 
 export const metadata: Metadata = {
   title: "Forn i Pastisseria Calvo",
-  description: "Pan, bolleria y pasteleria artesanal.",
+  description: "Obrador artesanal, elaborando nuestras recetas desde 1963.",
 };
 
 const inter = Inter({

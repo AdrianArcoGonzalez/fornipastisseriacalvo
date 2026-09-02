@@ -25,12 +25,41 @@
     "imageLabel": "Panadero preparando masa en el obrador",
     "freshNote": "Horneado diario"
   },
+  "history": {
+    "preTitle": "Nuestras raíces, nuestro pan",
+    "title": "Un horno, muchos recuerdos",
+    "description": "Desde 1963, la familia Calvo se ha levantado cada día para encender el horno. Lo que comenzó como un pequeño despacho de pan en el corazón del barrio, hoy es un legado de sabor, tradición y paciencia. Amasamos recuerdos con las mismas recetas de siempre."
+  },
+  "origin": {
+    "title": "El Origen",
+    "firstDescription": "Todo comenzó con el abuelo Félix, las manos llenas de harina y una idea muy clara: hacer buen pan requiere tiempo, dedicación y respeto por el oficio. Fundó esta panadería convencido de que el buen pan no necesita prisas. Nos enseñó que el verdadero secreto no está en un ingrediente mágico, sino en saber esperar, respetar los tiempos y cuidar cada paso del proceso.",
+    "secondDescription": "Hoy, más de 60 años después, seguimos trabajando con la misma masa madre que él cultivó con sus propias manos. Una masa viva que ha pasado de generación en generación y que, con cada horneada, mantiene vivo su legado. Después llegó Emilio, la segunda generación de la familia, que desde muy joven se sumó a la panadería para continuar la tradición, aprender el oficio y, con el tiempo, aportar su propio sello.",
+    "thirdDescription": "Porque algunas recetas no solo se transmiten de generación en generación. También se heredan la pasión, el respeto y una manera de entender el pan.",
+    "photoCaption": "El mostrador original, testigo de miles de mañanas"
+  },
+
+  "cardsSection": {
+    "title": "Lo que nos define",
+    "items": {
+      "natural": {
+        "title": "Ingredientes Naturales",
+        "text": "Las mejores harinas ,agua y sal. Sin conservantes ni mejorantes artificiales. Solo la pureza de las recetas tradicionales."
+      },
+      "slow": {
+        "title": "Procesos Lentos",
+        "text": "Fermentaciones largas. Creemos que el tiempo es el mejor amasador, desarrollando aromas y texturas impecables."
+      },
+      "family": {
+        "title": "Trato Familiar",
+        "text": "Para nosotros no eres un cliente, eres un vecino. Conocemos tus gustos y nos encanta ser parte de tu rutina diaria."
+      }
+    }
+  },
   "footer": {
-    "copyright": "© 2024 Forn i Pastisseria Calvo. Artesanos desde siempre.",
+    "copyright": "© 1963 Forn i Pastisseria Calvo. Artesanos desde siempre.",
     "information": "Información",
     "hours": "Horario: L-V 6:00-14:30, 16:30-20:30",
-    "saturdayHours": "Sábado: 7:00-14:30",
-    "sundayHours": "Domingo: 7:00-14:30",
+    "weekendHours": "Sábado y Domingo: 7:00-14:30",
     "address": "Avenida de Catalunya, 96, 08150 Parets del Vallès, Barcelona",
     "phone": "935 621 217",
     "follow": "Síguenos"
@@ -44,6 +73,17 @@
     "weekendHours": "Sábado y Domingo: 7:00-14:30",
     "imageLabel": "Fachada de Forn i Pastisseria Calvo"
   },
+
+  "contact": {
+    "heading": "Estamos aquí para ti",
+    "description": "¿Tienes alguna consulta, un encargo especial o simplemente quieres decir Hola? Acércate a nuestro obrador o envíanos un mensaje.",
+    "visitUs": "Visítanos",
+    "hours": "Horario",
+    "mondayToFriday": "Lunes a Viernes",
+    "weekendHours": "Sábado y Domingo",
+    "instagram": "Síguenos en Instagram"
+  },
+
   "bestProducts": {
     "title": "Recién salido del horno",
     "subtitle": "Nuestras especialidades, elaboradas cada día con los mejores ingredientes.",
