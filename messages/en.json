@@ -86,6 +86,64 @@
     "instagram": "Follow us on Instagram"
   },
 
+  "productsPage": {
+    "eyebrow": "Our bakery",
+    "title": "Made to be enjoyed.",
+    "description": "A selection of creations that changes with the seasons while always preserving our way of doing things."
+  },
+  "productsType": {
+    "ariaLabel": "Product types",
+    "bakery": {
+      "tag": "Artisan",
+      "title": "Bakery",
+      "description": "Sourdough and stone-ground flours."
+    },
+    "pastry": {
+      "tag": "Freshly baked",
+      "title": "Pastries",
+      "description": "Puff pastries made with pure butter."
+    },
+    "finePastry": {
+      "title": "Fine Pastry",
+      "description": "Tradition reimagined. Celebration cakes, semifreddos and classic pastries for special moments.",
+      "link": "View full catalogue"
+    }
+  },
+  "productsMenu": {
+    "ariaLabel": "Product menu",
+    "title": "Our Menu",
+    "description": "Choose your favorites from our bakery.",
+    "special": "Special",
+    "sections": {
+      "sourdough": {
+        "title": "Sourdough Breads",
+        "items": [
+          "Rustic Loaf (1 kg)",
+          "Traditional Baguette",
+          "100% Rye Bread"
+        ]
+      },
+      "pastry": {
+        "title": "Artisan Pastries",
+        "items": [
+          "Butter Croissant",
+          "Pain au Chocolat",
+          "Individual Ensaimada"
+        ]
+      },
+      "finePastry": {
+        "title": "Fine Pastry",
+        "items": ["Fruit Tart", "Chocolate Éclair", "Assorted Macarons"]
+      }
+    }
+  },
+  "productsCTA": {
+    "title": "Looking for something special?",
+    "description": "We prepare made-to-order cakes, catering for small events and specialty breads on request. Speak directly with our bakery.",
+    "call": "Call the bakery",
+    "events": "View event catalogue"
+  },
+
   "bestProducts": {
     "title": "Fresh from the oven",
     "subtitle": "Our specialties, made every day with the finest ingredients.",

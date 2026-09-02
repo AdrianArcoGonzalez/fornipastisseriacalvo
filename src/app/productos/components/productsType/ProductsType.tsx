@@ -1,35 +1,34 @@
 import styles from "./ProductsType.module.css";
-import Menu from "./menu/Menu";
+import { useTranslations } from "next-intl";
 
 const ProductsType = () => {
+  const t = useTranslations("productsType");
+
   return (
     <>
-      <section className={styles.grid} aria-label="Tipos de productos">
+      <section className={styles.grid} aria-label={t("ariaLabel")}>
         <article className={`${styles.product} ${styles.bakery}`}>
           <div className={styles.copy}>
-            <span className={styles.tag}>Artesanal</span>
-            <h2>Panadería</h2>
-            <p>Masa madre y harinas molidas a la piedra.</p>
+            <span className={styles.tag}>{t("bakery.tag")}</span>
+            <h2>{t("bakery.title")}</h2>
+            <p>{t("bakery.description")}</p>
           </div>
         </article>
         <article className={`${styles.product} ${styles.pastry}`}>
           <div className={styles.copy}>
             <span className={`${styles.tag} ${styles.tagRed}`}>
-              Recién horneado
+              {t("pastry.tag")}
             </span>
-            <h2>Bollería</h2>
-            <p>Hojaldres de mantequilla pura.</p>
+            <h2>{t("pastry.title")}</h2>
+            <p>{t("pastry.description")}</p>
           </div>
         </article>
         <article className={`${styles.product} ${styles.finePastry}`}>
           <div className={styles.copy}>
-            <h2>Pastelería Fina</h2>
-            <p>
-              Tradición reinterpretada. Tartas de celebración, semifríos y
-              clásicos de nuestra repostería para momentos especiales.
-            </p>
+            <h2>{t("finePastry.title")}</h2>
+            <p>{t("finePastry.description")}</p>
             <span className={styles.link}>
-              Ver catálogo completo <span aria-hidden="true">→</span>
+              {t("finePastry.link")} <span aria-hidden="true">→</span>
             </span>
           </div>
         </article>

@@ -84,6 +84,64 @@
     "instagram": "Segueix-nos a Instagram"
   },
 
+  "productsPage": {
+    "eyebrow": "El nostre obrador",
+    "title": "Fet per gaudir.",
+    "description": "Una selecció d'elaboracions que canvia amb les estacions, però conserva sempre la nostra manera de fer."
+  },
+  "productsType": {
+    "ariaLabel": "Tipus de productes",
+    "bakery": {
+      "tag": "Artesanal",
+      "title": "Forn de pa",
+      "description": "Massa mare i farines mòltes a la pedra."
+    },
+    "pastry": {
+      "tag": "Acabat de sortir del forn",
+      "title": "Brioixeria",
+      "description": "Pastes de full amb mantega pura."
+    },
+    "finePastry": {
+      "title": "Pastisseria Fina",
+      "description": "Tradició reinterpretada. Pastissos de celebració, semifreds i clàssics de la nostra pastisseria per a moments especials.",
+      "link": "Veure el catàleg complet"
+    }
+  },
+  "productsMenu": {
+    "ariaLabel": "Carta de productes",
+    "title": "La nostra Carta",
+    "description": "Tria els teus preferits del nostre obrador.",
+    "special": "Especial",
+    "sections": {
+      "sourdough": {
+        "title": "Pans de Massa Mare",
+        "items": [
+          "Pà rústic (1 kg)",
+          "Baguette Tradicional",
+          "Pa de Sègol 100%"
+        ]
+      },
+      "pastry": {
+        "title": "Brioixeria Artesana",
+        "items": [
+          "Croissant de Mantega",
+          "Pain au Chocolat",
+          "Ensaimada Individual"
+        ]
+      },
+      "finePastry": {
+        "title": "Pastisseria Fina",
+        "items": ["Pastís de Fruites", "Éclair de Xocolata", "Macarons Variats"]
+      }
+    }
+  },
+  "productsCTA": {
+    "title": "Busques alguna cosa especial?",
+    "description": "Preparem pastissos per encàrrec, càterings per a esdeveniments petits i pans especials sota comanda. Parla directament amb el nostre obrador.",
+    "call": "Trucar a l'obrador",
+    "events": "Veure el catàleg d'esdeveniments"
+  },
+
   "bestProducts": {
     "title": "Acabat de sortir del forn",
     "subtitle": "Les nostres especialitats, elaborades cada dia amb els millors ingredients.",

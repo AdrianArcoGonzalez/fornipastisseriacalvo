@@ -84,6 +84,64 @@
     "instagram": "Síguenos en Instagram"
   },
 
+  "productsPage": {
+    "eyebrow": "Nuestro obrador",
+    "title": "Hecho para disfrutar.",
+    "description": "Una selección de elaboraciones que cambia con las estaciones, pero conserva siempre nuestro modo de hacer."
+  },
+  "productsType": {
+    "ariaLabel": "Tipos de productos",
+    "bakery": {
+      "tag": "Artesanal",
+      "title": "Panadería",
+      "description": "Masa madre y harinas molidas a la piedra."
+    },
+    "pastry": {
+      "tag": "Recién horneado",
+      "title": "Bollería",
+      "description": "Hojaldres de mantequilla pura."
+    },
+    "finePastry": {
+      "title": "Pastelería Fina",
+      "description": "Tradición reinterpretada. Tartas de celebración, semifríos y clásicos de nuestra repostería para momentos especiales.",
+      "link": "Ver catálogo completo"
+    }
+  },
+  "productsMenu": {
+    "ariaLabel": "Carta de productos",
+    "title": "Nuestra Carta",
+    "description": "Elige tus favoritos de nuestro obrador.",
+    "special": "Especial",
+    "sections": {
+      "sourdough": {
+        "title": "Panes de Masa Madre",
+        "items": [
+          "Hogaza Rústica (1 kg)",
+          "Baguette Tradicional",
+          "Pan de Centeno 100%"
+        ]
+      },
+      "pastry": {
+        "title": "Bollería Artesana",
+        "items": [
+          "Croissant de Mantequilla",
+          "Pain au Chocolat",
+          "Ensaimada Individual"
+        ]
+      },
+      "finePastry": {
+        "title": "Pastelería Fina",
+        "items": ["Tarta de Frutas", "Éclair de Chocolate", "Macarons Variados"]
+      }
+    }
+  },
+  "productsCTA": {
+    "title": "¿Buscas algo especial?",
+    "description": "Preparamos tartas por encargo, caterings para eventos pequeños y panes especiales bajo pedido. Habla directamente con nuestro obrador.",
+    "call": "Llamar al obrador",
+    "events": "Ver catálogo de eventos"
+  },
+
   "bestProducts": {
     "title": "Recién salido del horno",
     "subtitle": "Nuestras especialidades, elaboradas cada día con los mejores ingredientes.",
