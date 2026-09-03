@@ -2,27 +2,27 @@ import Link from "next/link";
 import { Playfair_Display } from "next/font/google";
 import { useTranslations } from "next-intl";
 import styles from "./BestProducts.module.css";
+import pagesImg from "../../../../public/pages.png";
+import cruasanImg from "../../../../public/crusan.png";
+import sacherImg from "../../../../public/sacher.png";
 
 const playfairDisplay = Playfair_Display({ subsets: ["latin"] });
 
 const products = [
   {
-    name: "Hogaza rustica",
-    tag: "Masa madre",
-    image:
-      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=700",
+    name: "Pa de pagès",
+    tag: "Tradicional",
+    image: pagesImg,
   },
   {
-    name: "Croissant de mantequilla",
-    tag: "Especialidad",
-    image:
-      "https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&q=80&w=700",
+    name: "Croissants ",
+    tag: "Especialitat",
+    image: cruasanImg,
   },
   {
-    name: "Tarta de queso tostada",
+    name: "Sacher",
     tag: "Popular",
-    image:
-      "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&q=80&w=700",
+    image: sacherImg,
   },
 ];
 
@@ -42,7 +42,7 @@ export default function BestProducts() {
               aria-label={product.name}
               className={styles.image}
               role="img"
-              style={{ backgroundImage: `url(${product.image})` }}
+              style={{ backgroundImage: `url(${product.image.src})` }}
             >
               <span>{product.tag}</span>
             </div>

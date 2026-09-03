@@ -1,11 +1,13 @@
 import { BookOpen } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import styles from "./Menu.module.css";
-
+import products from "./data";
 const menuSections = ["sourdough", "pastry", "finePastry"] as const;
 
 const Menu = () => {
+  const locale = useLocale();
   const t = useTranslations("productsMenu");
+  const productLocale = locale === "ca" || locale === "en" ? locale : "es";
 
   return (
     <section className={styles.menu} aria-label={t("ariaLabel")}>
@@ -19,10 +21,10 @@ const Menu = () => {
           <section className={styles.category} key={section}>
             <h3>{t(`sections.${section}.title`)}</h3>
             <ul>
-              {[0, 1, 2].map((itemIndex) => (
-                <li key={itemIndex}>
-                  <span>{t(`sections.${section}.items.${itemIndex}`)}</span>
-                  {itemIndex === 2 && <small>{t("special")}</small>}
+              {products[section].map((product, productIndex) => (
+                <li key={`${product[productLocale]}-${productIndex}`}>
+                  <span>{product[productLocale]}</span>
+                  {product.tag && <small>{product.tag[productLocale]}</small>}
                 </li>
               ))}
             </ul>

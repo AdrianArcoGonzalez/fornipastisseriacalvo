@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./ProductsType.module.css";
 import { useTranslations } from "next-intl";
 
@@ -27,9 +28,6 @@ const ProductsType = () => {
           <div className={styles.copy}>
             <h2>{t("finePastry.title")}</h2>
             <p>{t("finePastry.description")}</p>
-            <span className={styles.link}>
-              {t("finePastry.link")} <span aria-hidden="true">→</span>
-            </span>
           </div>
         </article>
       </section>

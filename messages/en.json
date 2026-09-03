@@ -111,29 +111,21 @@
   },
   "productsMenu": {
     "ariaLabel": "Product menu",
-    "title": "Our Menu",
+    "title": "Our Products",
     "description": "Choose your favorites from our bakery.",
     "special": "Special",
     "sections": {
       "sourdough": {
         "title": "Sourdough Breads",
-        "items": [
-          "Rustic Loaf (1 kg)",
-          "Traditional Baguette",
-          "100% Rye Bread"
-        ]
+        "items": ["Rustic Loaf (1 kg)", "Whole Wheat Bread", "Rye Bread"]
       },
       "pastry": {
         "title": "Artisan Pastries",
-        "items": [
-          "Butter Croissant",
-          "Pain au Chocolat",
-          "Individual Ensaimada"
-        ]
+        "items": ["Croissants", "Canes", "Ensaimadas"]
       },
       "finePastry": {
         "title": "Fine Pastry",
-        "items": ["Fruit Tart", "Chocolate Éclair", "Assorted Macarons"]
+        "items": ["Massinis", "Sachers", "Mouses"]
       }
     }
   },

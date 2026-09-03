@@ -63,7 +63,8 @@
 
 .image {
   min-height: 390px;
-  background: var(--paper) url("/logo.png") center / min(70%, 360px) no-repeat;
+  background: var(--paper) url("../../../../public/exterior.jpg") center/cover;
+  width: 100%;
 }
 
 .hours {

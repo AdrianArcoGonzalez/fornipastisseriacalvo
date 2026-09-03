@@ -109,29 +109,21 @@
   },
   "productsMenu": {
     "ariaLabel": "Carta de productos",
-    "title": "Nuestra Carta",
+    "title": "Nuestros Productos",
     "description": "Elige tus favoritos de nuestro obrador.",
     "special": "Especial",
     "sections": {
       "sourdough": {
         "title": "Panes de Masa Madre",
-        "items": [
-          "Hogaza Rústica (1 kg)",
-          "Baguette Tradicional",
-          "Pan de Centeno 100%"
-        ]
+        "items": ["Hogaza Rústica", "Pan Integral", "Pan de Centeno"]
       },
       "pastry": {
         "title": "Bollería Artesana",
-        "items": [
-          "Croissant de Mantequilla",
-          "Pain au Chocolat",
-          "Ensaimada Individual"
-        ]
+        "items": ["Croissants", "Cañas", "Ensaimadas"]
       },
       "finePastry": {
         "title": "Pastelería Fina",
-        "items": ["Tarta de Frutas", "Éclair de Chocolate", "Macarons Variados"]
+        "items": ["Massinis", "Sachers", "Mouses"]
       }
     }
   },

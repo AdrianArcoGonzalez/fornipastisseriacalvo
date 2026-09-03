@@ -102,36 +102,28 @@
       "description": "Pastes de full amb mantega pura."
     },
     "finePastry": {
-      "title": "Pastisseria Fina",
+      "title": "Pastisseria",
       "description": "Tradició reinterpretada. Pastissos de celebració, semifreds i clàssics de la nostra pastisseria per a moments especials.",
       "link": "Veure el catàleg complet"
     }
   },
   "productsMenu": {
     "ariaLabel": "Carta de productes",
-    "title": "La nostra Carta",
+    "title": "Els nostres productes",
     "description": "Tria els teus preferits del nostre obrador.",
     "special": "Especial",
     "sections": {
       "sourdough": {
         "title": "Pans de Massa Mare",
-        "items": [
-          "Pà rústic (1 kg)",
-          "Baguette Tradicional",
-          "Pa de Sègol 100%"
-        ]
+        "items": ["Pà de pagès (1 kg)", "Pa integral", "Pa de Sègol"]
       },
       "pastry": {
         "title": "Brioixeria Artesana",
-        "items": [
-          "Croissant de Mantega",
-          "Pain au Chocolat",
-          "Ensaimada Individual"
-        ]
+        "items": ["Croissants", "Cañes", "Ensaimades"]
       },
       "finePastry": {
-        "title": "Pastisseria Fina",
-        "items": ["Pastís de Fruites", "Éclair de Xocolata", "Macarons Variats"]
+        "title": "Pastisseria",
+        "items": ["Massinis", "Sachers", "Mouses"]
       }
     }
   },
