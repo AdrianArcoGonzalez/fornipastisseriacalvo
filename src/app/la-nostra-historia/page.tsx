@@ -7,7 +7,7 @@ import { useTranslations } from "next-intl";
 export default function NuestraHistoria() {
   const t = useTranslations("history");
   return (
-    <Navigation active="historia">
+    <Navigation active="la-nostra-historia">
       <section className={styles.hero}>
         <span className={styles.eyebrow}>{t("preTitle")}</span>
         <h1>{t("title")}</h1>

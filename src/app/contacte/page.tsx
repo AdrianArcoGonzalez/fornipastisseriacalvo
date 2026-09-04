@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Contacto() {
   const t = useTranslations("contact");
   return (
-    <Navigation active="contacto">
+    <Navigation active="contacte">
       <section className={styles.page}>
         <header className={styles.header}>
           <h1>{t("heading")}</h1>
