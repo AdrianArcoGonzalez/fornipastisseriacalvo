@@ -143,27 +143,15 @@ const products: ShopProductCategory = {
       en: "Cream puff pastry",
     },
     {
-      ca: "Pasta de full de xocolata amb llet",
-      es: "Hojaldre de chocolate con leche",
-      en: "Milk chocolate puff pastry",
-    },
-    {
       ca: "Coca llardons",
       es: "Coca de chicharrones",
       en: "Crackling flatbread",
     },
+
     {
       ca: "Entrepans vegetals",
       es: "Bocadillos vegetales",
       en: "Vegetable sandwiches",
-    },
-    { ca: "Braç de gitano", es: "Brazo de gitano", en: "Swiss roll" },
-    { ca: "Lioneses", es: "Lionesas", en: "Cream puffs" },
-
-    {
-      ca: "Tartaletes de fruita",
-      es: "Tartaletas de fruta",
-      en: "Fruit tartlets",
     },
   ],
   finePastry: [
@@ -233,7 +221,24 @@ const products: ShopProductCategory = {
       es: "Mousse de stracciatella",
       en: "Stracciatella mousse",
     },
+    { ca: "Canapès", es: "Canapés", en: "Canapés" },
     { ca: "Mouse de mango", es: "Mousse de mango", en: "Mango mousse" },
+    {
+      ca: "Braç de gitano",
+      es: "Brazo de gitano",
+      en: "Swiss roll",
+    },
+    {
+      ca: "Lioneses",
+      es: "Lionesas",
+      en: "Cream puffs",
+    },
+
+    {
+      ca: "Tartaletes de fruita",
+      es: "Tartaletas de fruta",
+      en: "Fruit tartlets",
+    },
   ],
   temporal: [
     { ca: "Horchata", es: "Horchata", en: "Horchata" },
