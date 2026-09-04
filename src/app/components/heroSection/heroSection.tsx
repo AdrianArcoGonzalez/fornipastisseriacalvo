@@ -25,12 +25,12 @@ export default function HeroSection() {
         <div className={styles.actions}>
           <ButtonLink
             baseColor="primary"
-            href="/productos"
+            href="/productes"
             text={t("products")}
           />
           <ButtonLink
             baseColor="secondary"
-            href="/nuestra-historia"
+            href="/la-nostra-historia"
             text={t("about")}
           />
         </div>

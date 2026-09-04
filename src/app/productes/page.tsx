@@ -9,7 +9,7 @@ export default function Productos() {
   const t = useTranslations("productsPage");
 
   return (
-    <Navigation active="productos">
+    <Navigation active="productes">
       <div className={styles.container}>
         <section className={styles.hero}>
           <span className={styles.eyebrow}>{t("eyebrow")}</span>

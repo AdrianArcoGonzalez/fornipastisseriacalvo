@@ -19,7 +19,7 @@ const ProductsCta = () => {
         </Link>
         <Link
           className={`${styles.button} ${styles.secondary}`}
-          href="/contacto"
+          href="/contacte"
         >
           {t("events")}
         </Link>

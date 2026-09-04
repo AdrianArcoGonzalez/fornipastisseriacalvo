@@ -71,8 +71,7 @@
     "address": "Avinguda de Catalunya, 96, 08150 Parets del Vallès, Barcelona",
     "phone": "935 621 217",
     "mondayFridayHours": "Monday to Friday: 6:00-14:30, 16:30-20:30",
-    "saturdayHours": "Saturday: 7:00-14:30",
-    "sundayHours": "Sunday: 7:00-14:30",
+    "weekendHours": "Saturday and Sunday: 7:00-14:30",
     "imageLabel": "Facade of Forn i Pastisseria Calvo"
   },
 

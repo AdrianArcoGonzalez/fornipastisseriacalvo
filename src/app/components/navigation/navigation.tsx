@@ -11,14 +11,14 @@ import styles from "./navigation.module.css";
 
 type NavigationProps = {
   children: ReactNode;
-  active: "inicio" | "productos" | "historia" | "contacto";
+  active: "inici" | "productes" | "la-nostra-historia" | "contacte";
 };
 
 const links = [
-  ["inicio", "home", "/"],
-  ["productos", "products", "/productos"],
-  ["historia", "about", "/nuestra-historia"],
-  ["contacto", "contact", "/contacto"],
+  ["inici", "home", "/"],
+  ["productes", "products", "/productes"],
+  ["la-nostra-historia", "about", "/la-nostra-historia"],
+  ["contacte", "contact", "/contacte"],
 ] as const;
 
 export default function Navigation({ children, active }: NavigationProps) {

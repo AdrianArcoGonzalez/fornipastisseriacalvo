@@ -12,7 +12,7 @@ const OurPassion = () => {
           <p className={styles.eyebrow}>{t("eyebrow")}</p>
           <h2>{t("title")}</h2>
           <p>{t("description")}</p>
-          <Link className={styles.textLink} href="/nuestra-historia">
+          <Link className={styles.textLink} href="/la-nostra-historia">
             {t("link")} <span aria-hidden="true">&rarr;</span>
           </Link>
         </div>
