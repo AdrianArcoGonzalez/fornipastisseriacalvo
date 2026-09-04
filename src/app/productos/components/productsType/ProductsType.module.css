@@ -33,17 +33,17 @@
 }
 
 .bakery {
-  background-image: url(../../../../../public/lenya.webp);
+  background-image: url(../../../../../public/lenya-forn-pastisseria-calvo.webp);
 }
 
 .pastry {
-  background-image: url(../../../../../public/crusanchoco.webp);
+  background-image: url(../../../../../public/crusanchoco-artesanal-parets.webp);
 }
 
 .finePastry {
   grid-column: 1 / -1;
   min-height: 15rem;
-  background-image: url(../../../../../public/sacher.webp);
+  background-image: url(../../../../../public/sacher-forn-pastisseria-calvo.webp);
 }
 
 .copy {

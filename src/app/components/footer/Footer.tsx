@@ -16,7 +16,7 @@ export default function Footer() {
               alt="Forn i Pastisseria Calvo"
               className={styles.logo}
               height={140}
-              src="/logo.png"
+              src="/logo-calvo-parets.png"
               width={210}
             />
           </Link>

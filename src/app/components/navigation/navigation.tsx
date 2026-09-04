@@ -50,7 +50,7 @@ export default function Navigation({ children, active }: NavigationProps) {
           </div>
           <Link className={styles.brand} href="/">
             <Image
-              src="/logo.png"
+              src="/logo-calvo-parets.png"
               alt="Forn i Pastisseria Calvo"
               width={150}
               height={64}

@@ -41,7 +41,7 @@
   text-transform: uppercase;
 }
 
-.content h1 {
+.content h2 {
   margin: 0 0 1.5rem;
   color: var(--ink);
   font-family: var(--font-serif);

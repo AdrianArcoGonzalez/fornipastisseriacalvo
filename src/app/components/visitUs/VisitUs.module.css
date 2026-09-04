@@ -63,7 +63,9 @@
 
 .image {
   min-height: 390px;
-  background: var(--paper) url("../../../../public/exterior.webp") center/cover;
+  background: var(--paper)
+    url("../../../../public/exterior-forn-calvo-parets-del-valles.webp")
+    center/cover;
   width: 100%;
 }
 

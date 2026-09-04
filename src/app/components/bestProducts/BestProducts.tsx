@@ -1,12 +1,9 @@
 import Link from "next/link";
-import { Playfair_Display } from "next/font/google";
 import { useTranslations } from "next-intl";
 import styles from "./BestProducts.module.css";
-import pagesImg from "../../../../public/pages.webp";
-import cruasanImg from "../../../../public/crusan.webp";
-import sacherImg from "../../../../public/sacher.webp";
-
-const playfairDisplay = Playfair_Display({ subsets: ["latin"] });
+import pagesImg from "../../../../public/pages-forn-pastisseria-calvo.webp";
+import cruasanImg from "../../../../public/crusan-artesanal-forn-calvo-parets.webp";
+import sacherImg from "../../../../public/sacher-forn-pastisseria-calvo.webp";
 
 const products = [
   {
@@ -32,7 +29,7 @@ export default function BestProducts() {
   return (
     <section className={styles.featured}>
       <div className={styles.heading}>
-        <h2 className={playfairDisplay.className}>{t("title")}</h2>
+        <h2>{t("title")}</h2>
         <p>{t("subtitle")}</p>
       </div>
       <div className={styles.grid}>
@@ -48,7 +45,7 @@ export default function BestProducts() {
             </div>
             <div className={styles.copy}>
               <div>
-                <h3 className={playfairDisplay.className}>{product.name}</h3>
+                <h3>{product.name}</h3>
               </div>
               <p>{t("description")}</p>
             </div>
