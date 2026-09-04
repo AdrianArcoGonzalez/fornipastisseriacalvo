@@ -202,7 +202,7 @@ const products: ShopProductCategory = {
       en: "Masini vanilla",
     },
     { ca: "Sara", es: "Sara", en: "Sara" },
-    { ca: "Mouse de fresa", es: "Mousse de fresa", en: "Strawberry mousse" },
+    { ca: "Mouse de maduixa", es: "Mousse de fresa", en: "Strawberry mousse" },
     { ca: "Mouse de llimona", es: "Mousse de limón", en: "Lemon mousse" },
     {
       ca: "Mouse de cacaolat",

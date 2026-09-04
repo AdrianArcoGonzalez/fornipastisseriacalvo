@@ -33,7 +33,7 @@
 
   "origin": {
     "title": "L'origen",
-    "firstDescription": "Tot va començar amb el avi Felix, amb les mans plenes de farina i una idea clara: fer bon pa requereix temps, dedicació i respecte pel ofici. Va fundar aquest forn convençut que el bon pa no necessita presses. Ens va ensenyar que el veritable secret no està en un ingredient màgic, sinó en saber esperar, respectar els temps i cuidar cada pas del procés.",
+    "firstDescription": "Tot va començar amb l'avi Felix, amb les mans plenes de farina i una idea clara: fer bon pa requereix temps, dedicació i respecte per l'ofici. Va fundar aquest forn convençut que el bon pa no necessita presses. Ens va ensenyar que el veritable secret no està en un ingredient màgic, sinó en saber esperar, respectar els temps i cuidar cada pas del procés.",
     "secondDescription": "Avui, més de 60 anys després, continuem treballant amb la mateixa massa mare que ell va cultivar amb les seves pròpies mans. Una massa viva que ha passat de generació en generació i que, amb cada fornada, manté viu el seu llegat. Després va arribar l'Emilio, la segona generació de la família, que des de ben jove es va sumar al forn per continuar la tradició, aprendre l'ofici i, amb el temps, aportar el seu propi segell.",
     "thirdDescription": "Perquè algunes receptes no només es transmeten de generació en generació. També s'hereten la passió, el respecte i una manera d'entendre el pa.",
     "photoCaption": "El mostrador original, testimoni de milers de matins"
@@ -43,7 +43,7 @@
     "items": {
       "natural": {
         "title": "Ingredients Naturals",
-        "text": "Les millors farines, aigua i sal. Sense conservants ni millors artificials. Només la puresa de la terra."
+        "text": "Les millors farines, aigua i sal. Sense conservants ni millorants artificials. Només la puresa de la terra."
       },
       "slow": {
         "title": "Processos Lents",
