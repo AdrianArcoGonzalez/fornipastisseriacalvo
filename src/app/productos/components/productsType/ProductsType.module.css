@@ -33,17 +33,17 @@
 }
 
 .bakery {
-  background-image: url(../../../../../public/lenya.png);
+  background-image: url(../../../../../public/lenya.webp);
 }
 
 .pastry {
-  background-image: url(../../../../../public/crusanchoco.png);
+  background-image: url(../../../../../public/crusanchoco.webp);
 }
 
 .finePastry {
   grid-column: 1 / -1;
   min-height: 15rem;
-  background-image: url(../../../../../public/sacher.png);
+  background-image: url(../../../../../public/sacher.webp);
 }
 
 .copy {

@@ -2,9 +2,9 @@ import Link from "next/link";
 import { Playfair_Display } from "next/font/google";
 import { useTranslations } from "next-intl";
 import styles from "./BestProducts.module.css";
-import pagesImg from "../../../../public/pages.png";
-import cruasanImg from "../../../../public/crusan.png";
-import sacherImg from "../../../../public/sacher.png";
+import pagesImg from "../../../../public/pages.webp";
+import cruasanImg from "../../../../public/crusan.webp";
+import sacherImg from "../../../../public/sacher.webp";
 
 const playfairDisplay = Playfair_Display({ subsets: ["latin"] });
 

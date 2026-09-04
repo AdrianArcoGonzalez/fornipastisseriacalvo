@@ -63,7 +63,7 @@
 
 .image {
   min-height: 390px;
-  background: var(--paper) url("../../../../public/exterior.jpg") center/cover;
+  background: var(--paper) url("../../../../public/exterior.webp") center/cover;
   width: 100%;
 }
 

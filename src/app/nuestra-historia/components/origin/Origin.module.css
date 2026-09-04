@@ -16,7 +16,7 @@
   width: 100%;
   min-height: 520px;
   border-radius: 14px 14px 0 0;
-  background: url("../../../../../public/interior.jpg") center/cover;
+  background: url("../../../../../public/interior.webp") center/cover;
   box-shadow: 0 10px 24px rgba(15, 13, 10, 0.08);
 }
 
