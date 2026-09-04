@@ -94,12 +94,12 @@
     "bakery": {
       "tag": "Artesanal",
       "title": "Panadería",
-      "description": "Masa madre y harinas molidas a la piedra."
+      "description": "Masa madre y harinas de calidad."
     },
     "pastry": {
       "tag": "Recién horneado",
       "title": "Bollería",
-      "description": "Hojaldres de mantequilla pura."
+      "description": "Nuestras pastas tradicionales."
     },
     "finePastry": {
       "title": "Pastelería Fina",
@@ -124,7 +124,8 @@
       "finePastry": {
         "title": "Pastelería Fina",
         "items": ["Massinis", "Sachers", "Mouses"]
-      }
+      },
+      "temporal": { "title": "Productos de temporada" }
     }
   },
   "productsCTA": {

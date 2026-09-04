@@ -1,4 +1,3 @@
-import Link from "next/link";
 import styles from "./ProductsType.module.css";
 import { useTranslations } from "next-intl";
 

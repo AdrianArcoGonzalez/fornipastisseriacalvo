@@ -94,12 +94,12 @@
     "bakery": {
       "tag": "Artesanal",
       "title": "Forn de pa",
-      "description": "Massa mare i farines mòltes a la pedra."
+      "description": "Massa mare i farines de qualitat."
     },
     "pastry": {
       "tag": "Acabat de sortir del forn",
       "title": "Brioixeria",
-      "description": "Pastes de full amb mantega pura."
+      "description": "Les nostres pastes tradicionals."
     },
     "finePastry": {
       "title": "Pastisseria",
@@ -124,7 +124,8 @@
       "finePastry": {
         "title": "Pastisseria",
         "items": ["Massinis", "Sachers", "Mouses"]
-      }
+      },
+      "temporal": { "title": "Productes de temporada" }
     }
   },
   "productsCTA": {

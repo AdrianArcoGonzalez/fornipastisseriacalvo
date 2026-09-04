@@ -96,12 +96,12 @@
     "bakery": {
       "tag": "Artisan",
       "title": "Bakery",
-      "description": "Sourdough and stone-ground flours."
+      "description": "Sourdough and quality flours."
     },
     "pastry": {
       "tag": "Freshly baked",
       "title": "Pastries",
-      "description": "Puff pastries made with pure butter."
+      "description": "Our traditional pastries."
     },
     "finePastry": {
       "title": "Fine Pastry",
@@ -126,7 +126,8 @@
       "finePastry": {
         "title": "Fine Pastry",
         "items": ["Massinis", "Sachers", "Mouses"]
-      }
+      },
+      "temporal": { "title": "Seasonal Products" }
     }
   },
   "productsCTA": {

@@ -2,7 +2,7 @@ import { BookOpen } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import styles from "./Menu.module.css";
 import products from "./data";
-const menuSections = ["sourdough", "pastry", "finePastry"] as const;
+const menuSections = ["sourdough", "pastry", "finePastry", "temporal"] as const;
 
 const Menu = () => {
   const locale = useLocale();

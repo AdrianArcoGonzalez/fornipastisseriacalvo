@@ -235,6 +235,32 @@ const products: ShopProductCategory = {
     },
     { ca: "Mouse de mango", es: "Mousse de mango", en: "Mango mousse" },
   ],
+  temporal: [
+    { ca: "Horchata", es: "Horchata", en: "Horchata" },
+    { ca: "Boniatos", es: "Boniatos", en: "Sweet potato" },
+    { ca: "Panellets", es: "Panellets", en: "Marzipan sweets" },
+    { ca: "Torrons", es: "Turrones", en: "Nougat" },
+    {
+      ca: "Coques de Sant Joan",
+      es: "Cocas de San Juan",
+      en: "Saint John's cakes",
+      tag: { es: "Top Ventas", en: "Top Sales", ca: "Més venuts" },
+    },
+    {
+      ca: "Mona de Pascua",
+      es: "Mona de Pascua",
+      en: "Easter cake",
+      tag: { es: "Top Ventas", en: "Top Sales", ca: "Més venuts" },
+    },
+    { es: "Buñuelos", ca: "Bunyols", en: "Fritters" },
+    { ca: "Neules", es: "Neulas", en: "Wafers" },
+    {
+      es: "Roscones de reyes",
+      ca: "Tortells de reis",
+      en: "King's cakes",
+      tag: { es: "Top Ventas", en: "Top Sales", ca: "Més venuts" },
+    },
+  ],
 };
 
 export default products;
