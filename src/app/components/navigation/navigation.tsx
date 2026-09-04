@@ -51,7 +51,7 @@ export default function Navigation({ children, active }: NavigationProps) {
           <Link className={styles.brand} href="/">
             <Image
               src="/logo-calvo-parets.png"
-              alt="Forn i Pastisseria Calvo"
+              alt="Logotip de Forn i Pastisseria Calvo"
               width={150}
               height={64}
               priority

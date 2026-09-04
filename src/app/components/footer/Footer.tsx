@@ -13,7 +13,7 @@ export default function Footer() {
         <div className={styles.brand}>
           <Link aria-label="Forn i Pastisseria Calvo" href="/">
             <Image
-              alt="Forn i Pastisseria Calvo"
+              alt="Logotip de Forn i Pastisseria Calvo"
               className={styles.logo}
               height={140}
               src="/logo-calvo-parets.png"

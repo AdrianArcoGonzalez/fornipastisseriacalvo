@@ -53,7 +53,7 @@ export default function BestProducts() {
         {products.map((product) => (
           <article className={styles.card} key={product.name}>
             <div
-              aria-label={product.name}
+              aria-label={`${product.name} artesanal de Forn i Pastisseria Calvo`}
               className={styles.image}
               role="img"
               style={{ backgroundImage: `url(${product.image.src})` }}

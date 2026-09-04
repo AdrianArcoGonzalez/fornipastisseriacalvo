@@ -10,7 +10,7 @@ export default function HeroSection() {
   return (
     <section className={styles.hero}>
       <Image
-        alt="Cruasan image"
+        alt="Croissant artesanal de Forn i Pastisseria Calvo"
         className={styles.bgImage}
         fetchPriority="high"
         fill
