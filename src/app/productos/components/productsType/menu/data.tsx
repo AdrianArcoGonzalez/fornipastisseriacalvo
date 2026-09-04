@@ -71,9 +71,9 @@ const products: ShopProductCategory = {
   pastry: [
     { ca: "Croissant", es: "Croissant", en: "Croissant" },
     {
-      ca: "Croissant de xocolata negra",
-      es: "Croissant de chocolate negro",
-      en: "Black chocolat croisant",
+      ca: "Croissant de xocolata amb llet",
+      es: "Croissant de chocolate con leche",
+      en: "Milk chocolate croissant",
       tag: { es: "Top Ventas", en: "Top Sales", ca: "Més venuts" },
     },
     {
@@ -123,9 +123,9 @@ const products: ShopProductCategory = {
     },
     { ca: "Lents", es: "Lentes", en: "Lentils" },
     {
-      ca: "Pasta de full de xocolata negre",
-      es: "Hojaldre de chocolate negro",
-      en: "Dark chocolate puff pastry",
+      ca: "Pasta de full de xocolata amb llet",
+      es: "Hojaldre de chocolate con leche",
+      en: "Milk chocolate puff pastry",
     },
     {
       ca: "Pasta de full de xocolata blanca",
@@ -143,9 +143,9 @@ const products: ShopProductCategory = {
       en: "Cream puff pastry",
     },
     {
-      ca: "Pasta de full de xocolata negre",
-      es: "Hojaldre de chocolate negro",
-      en: "Dark chocolate puff pastry",
+      ca: "Pasta de full de xocolata amb llet",
+      es: "Hojaldre de chocolate con leche",
+      en: "Milk chocolate puff pastry",
     },
     {
       ca: "Coca llardons",
@@ -186,19 +186,19 @@ const products: ShopProductCategory = {
     { ca: "Red Velvet", es: "Red Velvet", en: "Red Velvet" },
     {
       ca: "Masini nata",
-      es: "Masini nata",
+      es: "Tarta San Marcos nata",
       en: "Masini cream",
       tag: { es: "Top Ventas", en: "Top Sales", ca: "Més venuts" },
     },
-    { ca: "Masini trufa", es: "Masini trufa", en: "Masini truffle" },
+    { ca: "Masini trufa", es: "Tarta San Marcos trufa", en: "Masini truffle" },
     {
       ca: "Masini nata i trufa",
-      es: "Masini nata y trufa",
+      es: "Tarta San Marcos nata y trufa",
       en: "Masini cream and truffle",
     },
     {
       ca: "Masini de vainilla",
-      es: "Masini de vainilla",
+      es: "Tarta San Marcos de vainilla",
       en: "Masini vanilla",
     },
     { ca: "Sara", es: "Sara", en: "Sara" },
@@ -219,9 +219,9 @@ const products: ShopProductCategory = {
       en: "Crema catalana mousse",
     },
     {
-      ca: "Mouse de xocolata negre",
-      es: "Mousse de chocolate negro",
-      en: "Dark chocolate mousse",
+      ca: "Mouse de xocolata",
+      es: "Mousse de chocolate",
+      en: "Chocolate mousse",
     },
     {
       ca: "Mouse de xocolata blanca",
