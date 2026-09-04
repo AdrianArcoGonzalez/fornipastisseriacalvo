@@ -54,6 +54,7 @@ export default function Navigation({ children, active }: NavigationProps) {
               alt="Logotip de Forn i Pastisseria Calvo"
               width={150}
               height={64}
+              sizes="(max-width: 720px) 82px, 98px"
               priority
             />
           </Link>
