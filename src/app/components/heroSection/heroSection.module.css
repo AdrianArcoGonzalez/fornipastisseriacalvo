@@ -5,8 +5,12 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  background: url("../../../../public//crusanchoco.webp") center/cover;
   text-align: center;
+}
+
+.bgImage {
+  z-index: 0;
+  object-fit: cover;
 }
 
 .overlay {
