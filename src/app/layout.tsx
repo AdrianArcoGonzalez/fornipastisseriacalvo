@@ -24,7 +24,7 @@ const bakeryJsonLd = {
   "@context": "https://schema.org",
   "@type": "Bakery",
   name: "Forn i Pastisseria Calvo",
-  url: "https://fornipastisseriacalvo.vercel.app",
+  url: "https://fornipastisseriacalvo.com",
   telephone: "+34935621217",
   address: {
     "@type": "PostalAddress",
