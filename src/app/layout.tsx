@@ -8,6 +8,19 @@ export const metadata: Metadata = {
   title: "Forn de Pa i Pastisseria a Parets del Vallès | Forn Calvo",
   description:
     "Forn de pa i pastisseria artesanal a Parets del Vallès. Pa artesà, croissants, pastissos i productes elaborats cada dia al nostre obrador.",
+  metadataBase: new URL("https://fornipastisseriacalvo.com"),
+  icons: {
+    icon: "/logo-calvo-parets.png",
+  },
+  openGraph: {
+    title: "Forn de Pa i Pastisseria a Parets del Vallès | Forn Calvo",
+    description: "Forn de pa i pastisseria artesanal a Parets del Vallès.",
+    url: "https://fornipastisseriacalvo.com",
+    siteName: "Forn i Pastisseria Calvo",
+    images: ["/logo-calvo-parets.png"],
+    locale: "ca_ES",
+    type: "website",
+  },
 };
 
 const inter = Inter({
@@ -25,6 +38,8 @@ const bakeryJsonLd = {
   "@type": "Bakery",
   name: "Forn i Pastisseria Calvo",
   url: "https://fornipastisseriacalvo.com",
+  logo: "https://fornipastisseriacalvo.com/logo-calvo-parets.png",
+  image: "https://fornipastisseriacalvo.com/logo-calvo-parets.png",
   telephone: "+34935621217",
   address: {
     "@type": "PostalAddress",
